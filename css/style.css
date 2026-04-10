@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); /*fonte do google fonts*/
 
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   font-family: "Roboto", sans-serif;
+   font-family: "Roboto", sans-serif; 
 
 
 }
@@ -26,4 +26,14 @@ header{
     list-style: none; /* tira o estilo = ponto antes das palavras*/
     gap: 55px;
     
+}
+.item-menu{
+   color: #004a8d;
+   font-weight: 500; 
+    transition: 0.6s;
+    font-weight: 600px;
+}
+.item-menu:hover{ /* faz a fonte mudar de cor ao passar o mouse em cima*/
+    color: #f7941d;
+    cursor: pointer; /* muda o cursor do mouse*/
 }
